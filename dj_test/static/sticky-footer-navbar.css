@@ -1,0 +1,65 @@
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+main > .container {
+  padding: 60px 15px 0;
+
+}
+
+.footer {
+  background-color: rgba(22, 22, 22, 0.13);
+}
+
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+  color: rgba(28, 57, 92, 0.66);
+  text-align: center;
+}
+
+.navbar {
+ background-color: rgba(22, 22, 22, 0.13);
+  text-align: center;
+}
+
+nav .navbar-nav li a {
+  color: rgba(28, 57, 92, 0.66) !important;
+  }
+
+body {
+    background-color: rgba(255, 255, 255, 0.78);
+}
+code {
+  font-size: 80%;
+}
+
+/* Carousel base class */
+.carousel {
+  margin-bottom: 1rem;
+    margin-top: 1rem;
+
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  bottom: 7rem;
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  height: 16rem;
+}
+.carousel-item > img {
+  position: absolute;
+  top: 50;
+  left: 50;
+  right: 50;
+  height: 18rem;
+  /*height: 280px;*/
+  width: 200px;
+}
+body {
+ background-color: white ;
+
+}
